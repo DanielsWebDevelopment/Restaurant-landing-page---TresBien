@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============== Bootstrap CDN ===============  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- ================= Google Fonts API =========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ============= Font Awesome CDN =============  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ============ Stylesheet ======== -->
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>TresBien</title>
+  </head>
+  <body>
+    <!-- ============ Navbar -->
+    <nav class="navbar" id="navbar">
+      <a href="./index.html" class="logo">TresBien</a>
+
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="./about.html">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="./menu.html">Menu</a>
+        </li>
+        <li class="nav__item">
+          <a href="./specials.html">Specials</a>
+        </li>
+      </ul>
+      <div class="book-btn">
+        <button class="book">Book</button>
+      </div>
+      <div class="navbar__toggle" id="navbar-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <div class="sidebar_nav" id="sidebar_nav">
+      <h4>TresBien</h4>
+
+      <li class="nav__item">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav__item">
+        <a href="./about.html">About Us</a>
+      </li>
+      <li class="nav__item">
+        <a href="./menu.html">Menu</a>
+      </li>
+      <li class="nav__item">
+        <a href="./specials.html">Specials</a>
+      </li>
+    </div>
+    <!-- ============ End Navbar -->
+
+    <header class="m-menu__build">
+        <div class="m-menu">
+          <div class="menu_build-title">
+              <h1>Menu Builder</h1>
+              <p>Create your ideal meal by customizing each component. 
+              Choose from a variety of proteins, toppings, sauces, and extras to suit your 
+              dietary preferences or restrictions.</p>
+          </div>
+
+          <div class="main_menubuilder">
+            <div class="menu_build-left">
+                <span><strong>Choose your base dish option 
+                to start building your meal.</strong></span>
+                <p>Select from a variety of options such as rice bowls, salads, or wraps as the
+                foundation of your customized meal.</p>
+            </div>
+            <div class="menu_build-right">
+                <img src="./assets/mbuildimg.png" />
+            </div>
+          </div>
+        </div>
+
+          <div class="menu_buiil-sub-i">
+            <div class="build-wrapper"></div>
+            <div class="menu_builder_sub-info">
+                <div class="l-mb_sub-into">
+                    <small>Build</small>
+                    <span><strong>Create Your Perfect Meal 
+                    Combination</strong></span>
+                </div>
+                <div class="r-mb_sub-into">
+                    <p>Choose from a variety of protein options such as chicken, tofu, shrimp, or 
+                    beef. Filter your choices based on dietary preferences like vegetarian
+                    or gluten-free. Customize your meal with a selection of toppings, sauces, and
+                    extras.</p>
+                </div>
+            </div>
+          </div>
+        </header>
+
+    <section class="menu_build-options">
+        <article class="build_options">
+            <div class="build_cta">
+                <div class="build_choices">
+                    <img src="./assets/bowl-fill.png" />
+                </div>
+                <div class="build_filter">
+                    <span><b>Protein Choices</b></span>
+                </div>
+                <div class="BUild-i">
+                    <small>Explore our range of protein options.</small>
+                </div>
+            </div>
+
+            <div class="build_cta">
+                <div class="build_choices">
+                    <img src="./assets/bowl-fill.png" />
+                </div>
+                <div class="build_filter">
+                    <span><b>Filter by Dietary Preference</b></span>
+                </div>
+
+                <div class="BUild-i">
+                    <small>Explore our range of protein options.</small>
+                </div>
+            </div>
+
+            <div class="build_cta">
+                <div class="build_choices">
+                    <img src="./assets/bowl-fill.png" />
+                </div>
+                <div class="build_filter">
+                    <span><b>Protein Choices</b></span>
+                </div>
+                <div class="BUild-i">
+                    <small>Explore our range of protein options.</small>
+                </div>
+            </div>
+
+            <div class="build_cta-btn">
+                <div class="b-cta">
+                    <a href="./specials.html">Build</a>
+                </div>
+                <div class="b-cta">
+                    <a href="#">Order</a>
+                    <img src="./assets/arrow-right-line.png" />
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="customize__options">
+        <h2>Customize Your Options</h2>
+
+        <div class="menu_build-c-options">
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/grapes1.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Fruits</small>
+                        </div>
+                        <div class="category">
+                            <small>Nutritious</small>
+                        </div>
+                        <div class="category">
+                            <small>Fresh</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Fresh grapes are nature's juicy jewels, 
+                        bursting with sweet flavor and vibrant colors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/ham1.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Toppins</small>
+                        </div>
+                        <div class="category">
+                            <small>Fresh</small>
+                        </div>
+                        <div class="category">
+                            <small>Frozen</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Crafted with care and expertise, 
+                        our hams are a delicious fusion of premium cuts of meat,</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/bars.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Sides</small>
+                        </div>
+                        <div class="category">
+                            <small>Desserts</small>
+                        </div>
+                        <div class="category">
+                            <small>Sweet</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Made with the finest ingredients including 
+                        hearty oats and crunchy nuts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/smoothie.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Smoothies</small>
+                        </div>
+                        <div class="category">
+                            <small>Nutritious</small>
+                        </div>
+                        <div class="category">
+                            <small>Savoury</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Crafted with the freshest fruits, creamy yogurts,
+                         and nutrient-packed greens.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/burg.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Gourmet</small>
+                        </div>
+                        <div class="category">
+                            <small>Fresh</small>
+                        </div>
+                        <div class="category">
+                            <small>Hot</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Crafted with the finest cuts of beef, 
+                        seasoned to perfection, and grilled to juicy perfection</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/pizza.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Pizza</small>
+                        </div>
+                        <div class="category">
+                            <small>Meals</small>
+                        </div>
+                        <div class="category">
+                            <small>Flavorful</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Crafted with the finest ingredients and baked to 
+                        perfection in our wood-fired ovens,</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/sauce.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Condiments</small>
+                        </div>
+                        <div class="category">
+                            <small>Extras</small>
+                        </div>
+                        <div class="category">
+                            <small>Choice</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        A nobis repellat doloremque laudantium tempore expedita.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="c-option">
+                    <div class="c-option__image">
+                        <img src="./assets/spices.png" />
+                    </div>
+                    <div class="c__image">
+                        <p>Create your ideal meal by customizing each
+                        component. Choose from a variety of proteins, 
+                        toppings, sauces, and extras to suit your dietary.</p>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="categ">
+                        <div class="category">
+                            <small>Spices</small>
+                        </div>
+                        <div class="category">
+                            <small>Seasoning</small>
+                        </div>
+                        <div class="category">
+                            <small>Choice</small>
+                        </div>
+                    </div>
+                    <div class="category_info">
+                        <p>explore our vast selection of spices, each 
+                        carefully sourced and expertly curated to ensure 
+                        the highest quality and freshness. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-updates">
+        <small class="update-title">Get Exclusive Updates</small>
+        <p class="update_info">Sign up for our newsletter to receive the
+         latest news and promotions.</p>
+  
+         <div class="subscribtion_cta-btns">
+            <form method="POST" class="input-form" id="input-form">
+              <div class="update_input" id="update_input">
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div class="update_btn">
+                <button type="submit">Subscribe</button>
+              </div>
+            </form>
+            <div class="update_cta">
+              <small>By subscribing, you agree to our Privacy Policy.</small>
+              <a href="#">Privacy Policy</a>
+            </div>
+         </div>
+      </section>
+
+
+    <footer class="footer">
+      <div class="footer-col">
+        <div class="f-col">
+          <h4>About Us</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Contact</a>
+              </li>
+              <li class="f-link">
+                <a href="#">FAQs</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Terms</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Privacy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Shipping</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Returns</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Order Tracking</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Customer Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Blog</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Affiliate</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Wholesale</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Careers</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">View Openings</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Locations</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Apply</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Business Inquiries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Terms of Service</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Use of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="c-logo">
+        <div class="f-c-logo">
+          <span><strong>TresBien</strong></span>
+        </div>
+        <div class="copyright">
+          <small>Copyright &copy; 2024, TresBien. All rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

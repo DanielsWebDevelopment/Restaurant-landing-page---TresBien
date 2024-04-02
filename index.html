@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============== Bootstrap CDN ===============  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- ================= Google Fonts API =========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ============= Font Awesome CDN =============  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ============ Stylesheet ======== -->
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>TresBien</title>
+  </head>
+  <body>
+    <!-- ============ Navbar -->
+    <nav class="navbar" id="navbar">
+      <a href="./index.html" class="logo">TresBien</a>
+
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="./about.html">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="./menu.html">Menu</a>
+        </li>
+        <li class="nav__item">
+          <a href="./specials.html">Specials</a>
+        </li>
+      </ul>
+      <div class="book-btn">
+        <button class="book">Book</button>
+      </div>
+      <div class="navbar__toggle" id="navbar-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <div class="sidebar_nav" id="sidebar_nav">
+      <h4>TresBien</h4>
+
+      <li class="nav__item">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav__item">
+        <a href="./about.html">About Us</a>
+      </li>
+      <li class="nav__item">
+        <a href="./menu.html">Menu</a>
+      </li>
+      <li class="nav__item">
+        <a href="./specials.html">Specials</a>
+      </li>
+    </div>
+    <!-- ============ End Navbar -->
+
+    <!-- ============ Header Section-->
+    <header class="main-header_content">
+      <div class="h-title">
+        <h1>Discover the Best Flavors in Town</h1>
+        <p>
+          Indulge in a culinary journey like no other, with our exquisite dishes
+          and vibrant ambiance.
+        </p>
+        <div class="h-cta-btns">
+          <div class="cta-btn">
+            <a href="#d-title">Explore</a>
+          </div>
+          <div class="cta-btn">
+            <a href="#">Reserve</a>
+          </div>
+        </div>
+      </div>
+      <div class="h-content-image">
+        <img src="./assets/main.jpg" alt="Food dish" />
+      </div>
+    </header>
+    <!-- ============ Discover Section-->
+    <section class="wrapper">
+      <article class="discover">
+        <div class="d-sub_title">
+          <small>Discover</small>
+        </div>
+        <div class="d-title" id="d-title">
+          <h2>Experience Our Cuisine</h2>
+          <p>
+            Welcome to our restaurant, where culinary delights await you in a
+            cozy and inviting ambiance.
+          </p>
+        </div>
+        <div class="d-cta-btns">
+          <div class="d-cta-btn">
+            <a href="./specials.html">Explore</a>
+          </div>
+          <div class="d-cta-btn">
+            <a href="#">Reserve</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- ============ Culinary Section-->
+    <section class="culinary-x">
+      <artice class="culinary_info">
+        <div class="left_info">
+          <div class="c-main-info">
+            <h3>Experience the Culinary Delights of Our Renowned Chef</h3>
+            <p>
+              At our restaurant, we pride ourselves on using locally sourced
+              ingredients and having a renowned chef who creates exceptional
+              dishes. With our commitment to quality and passion for culinary
+              excellence, we guarantee a dining experience like no other.
+            </p>
+          </div>
+
+          <div class="fresh-ingredients-s">
+            <div class="ingredients">
+              <img src="./assets/restaurant-line.png" alt="image icon" />
+              <small>Fresh Ingredients</small>
+              <p>
+                Our dishes are made with the freshest ingredients, sourced
+                locally to ensure quality and flavor.
+              </p>
+            </div>
+            <div class="ingredients">
+              <img src="./assets/bowl-fill.png" alt="image icon" />
+              <small>Farmers Market</small>
+              <p>
+                Our friendly staff is dedicated to providing exceptional service
+                and creating a memorable dining experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right_info">
+          <div class="info_image">
+            <img src="./assets/submain.jpg" alt="Food Dish" />
+          </div>
+        </div>
+      </artice>
+    </section>
+
+<!-- ============ Experience Section-->
+    <section class="wrapper">
+      <article class="experience">
+        <div class="t-exp">
+            <h3>Experience an unforgettable dining 
+            experience with our restaurant's ambient setting.</h3>
+            <p>Indulge in our diverse menu, offering a wide range of culinary delights to 
+            satisfy all tastes. Choose from our health-conscious options for a guilt-
+            free dining experience.</p>
+        </div>
+      </article>
+    </section>
+<!-- ============ Additional Discover Section-->
+    <section class="a-discover_sec">
+        <div class="ad-cards">
+            <div class="card">
+                <div class="t-c-icon">
+                    <img src="./assets/bowl-fill.png" alt="image icon" />
+                </div>
+                <div class="t-cart">
+                    <small>Discover Our Additional Services</small>
+                    <p>In addition to our exceptional dining experience, we offer a range of 
+                    additional services to enhance your visit. From catering for special events 
+                    to private event hosting, we have you covered.</p>
+                </div>
+                <div class="b-t-card">
+                    <div class="d-cta-btns">
+                        <div class="btn">
+                            <a href="./menu.html">Learn More</a>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Book Now</a>
+                            <img src="./assets/arrow-right-line.png" alt="image icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="t-c-icon">
+                    <img src="./assets/bowl-fill.png" alt="image icon" />
+                </div>
+                <div class="t-cart">
+                    <small>Catering for Every Occasion</small>
+                    <p>Make your next event unforgettable with our professional catering 
+                    services. Our talented chefs will create a customized menu that 
+                    perfectly suits your taste and style.</p>
+                </div>
+                <div class="b-t-card">
+                    <div class="d-cta-btns">
+                        <div class="btn">
+                            <a href="./menu.html">Learn More</a>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Book Now</a>
+                            <img src="./assets/arrow-right-line.png" alt="image icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="t-c-icon">
+                    <img src="./assets/bowl-fill.png" alt="image icon" />
+                </div>
+                <div class="t-cart">
+                    <small>Host Your Event with Us</small>
+                    <p>Whether it's a birthday celebration, corporate gathering, or wedding reception, 
+                    our versatile event spaces are the perfect setting for any occasion. 
+                    Let our dedicated team help you plan and execute a memorable event.</p>
+                </div>
+                <div class="b-t-card">
+                    <div class="d-cta-btns">
+                        <div class="btn">
+                            <a href="./menu.html">Learn More</a>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Book Now</a>
+                            <img src="./assets/arrow-right-line.png" alt="image icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ============ Signature Section-->
+    <section class="signature-s">
+        <div class="signature_info">
+            <div class="s-sub-title">
+                <small>Delicious</small>
+                <h3>Discover Our Signature Dishes and Merchandise</h3>
+                <p>Indulge in our carefully crafted signature dishes or show your 
+                love for our restaurant with our branded merchandise. From mouthwatering 
+                sauces to stylish apparel, we have something for every food lover.</p>
+            </div>
+            <div class="stats">
+                <div class="stats-s">
+                    <div class="stat-percentage">
+                        <small>50%</small>
+                    </div>
+                    <div class="stat-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Suspendisse varius enim in eros.</p>
+                    </div>
+                </div>
+
+                <div class="stats-s">
+                    <div class="stat-percentage">
+                        <small>50%</small>
+                    </div>
+                    <div class="stat-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Suspendisse varius enim in eros.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="s-cta-btns">
+                <div class="s-btn">
+                    <a href="#">Shop</a>
+                </div>
+                <div class="s-btn">
+                    <a href="#">Explore</a>
+                    <img src="./assets/arrow-right-line.png" alt="image icon"/>
+                </div>
+            </div>
+        </div>
+        <div class="s_image">
+          <img src="./assets/dishes.jpg" alt="image icon" />
+        </div>
+    </section>
+<!-- ============ Options Section-->
+    <section class="wrapper">
+      <article class="option_sec">
+        <div class="options_info">
+          <h3>Discover Our Delicious Menu Options</h3>
+          <p>Experience a culinary journey like no other. Our talented chefs 
+            create mouthwatering dishes using the finest ingredients, 
+            ensuring a memorable dining experience for every guest.</p>
+        </div>
+        <div class="option_cta">
+          <div class="option_c">
+            <a href="#">Reserve</a>
+          </div>
+          <div class="option_c">
+            <a href="./about.html">Learn More</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+<!-- ============ Testimonials Section-->
+    <section class="tesimonials-Wrapper">
+      <div class="t-testimonials">
+        <h3>Customer Testimonials</h3>
+        <small>See what our customers have to say about us.</small>
+      </div>
+
+      <div class="testimonials">
+        <div class="t-info">
+          <div class="star-rating">
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon" />
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon" />
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon" />
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon" />
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon" />
+          </div>
+          <div class="t-info-p">
+            <p>Our experience with the restaurant landing page has 
+              been nothing short of amazing. The design and functionality 
+              have greatly improved our online presence and customer engagement.</p>
+          </div>
+          <div class="t-image">
+            <img src="./assets/pexels-nappy-936043 (2).jpg" alt="review icon"/>
+          </div>
+          <div class="t-name-position">
+            <p>John Doe</p>
+            <small>Marketing Manager, ABC Restaurant</small>
+          </div>
+        </div>
+
+        <div class="t-info">
+          <div class="star-rating">
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon"/>
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon"/>
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon"/>
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon"/>
+            <img src="./assets/icons8-star-48 (2).png" alt="image icon"/>
+          </div>
+          <div class="t-info-p">
+            <p>The restaurant landing page has exceeded our expectations. 
+            It has helped us attract more customers and increase our revenue significantly.</p>
+          </div>
+          <div class="t-image">
+            <img src="./assets/pexels-linkedin-sales-navigator-2182971 (1).jpg" alt="review icon"/>
+          </div>
+          <div class="t-name-position">
+            <p>Jane Smith</p>
+            <small>Owner, XYZ Bistro</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+<!-- ============ Faqs Section-->
+    <section class="faqs">
+      <h4>Faqs</h4>
+      <p>Find answers to common questions about our dining 
+      experience, menu options, and reservation policies.</p>
+
+      <div class="faqs__container">
+        <div class="faqs-sec">
+          <div class="question-text">
+            <div class="q-title">
+              <small class="question-title">What are your menu options?</small>
+              <a href="#" class="f-toggle-btn">
+                <img src="./assets/arrow-down-s-line.png" alt="image icon"/>
+              </a>
+            </div>
+            <p class="answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Itaque minima quo eius distinctio iusto fugit 
+            dignissimos autem id fuga optio!</p>
+          </div>
+        </div>
+
+        <div class="faqs-sec">
+          <div class="question-text">
+            <div class="q-title">
+              <small class="question-title">How can I make a reservation?</small>
+              <a href="#" class="f-toggle-btn">
+                <img src="./assets/arrow-down-s-line.png" alt="image icon"/>
+              </a>
+            </div>
+            <p class="answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Itaque minima quo eius distinctio iusto fugit 
+            dignissimos autem id fuga optio!</p>
+          </div>
+        </div>
+
+        <div class="faqs-sec">
+          <div class="question-text">
+            <div class="q-title">
+              <small class="question-title">Do you accept walk-ins?</small>
+              <a href="#" class="f-toggle-btn">
+                <img src="./assets/arrow-down-s-line.png" alt="image icon"/>
+              </a>
+            </div>
+            <p class="answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Itaque minima quo eius distinctio iusto fugit 
+            dignissimos autem id fuga optio!</p>
+          </div>
+        </div>
+
+        <div class="faqs-sec">
+          <div class="question-text">
+            <div class="q-title">
+              <small class="question-title">Can I customize my order?</small>
+              <a href="#" class="f-toggle-btn">
+                <img src="./assets/arrow-down-s-line.png" alt="image icon"/>
+              </a>
+            </div>
+            <p class="answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Itaque minima quo eius distinctio iusto fugit 
+            dignissimos autem id fuga optio!</p>
+          </div>
+        </div>
+
+        <div class="faqs-sec">
+          <div class="question-text">
+            <div class="q-title">
+              <small class="question-title">Do you offer catering services?</small>
+              <a href="#" class="f-toggle-btn">
+                <img src="./assets/arrow-down-s-line.png" alt="image icon"/>
+              </a>
+            </div>
+            <p class="answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Itaque minima quo eius distinctio iusto fugit 
+            dignissimos autem id fuga optio!</p>
+          </div>
+        </div>
+
+        <div class="cta-q-info">
+          <div class="cta-q">
+            <h3>Still Have Questions?</h3>
+            <small>Contact us for further assistance.</small>
+          </div>
+          <div class="cta-q-btn">
+            <a href="#contact_info">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact_info" id="contact_info">
+      <div class="main-c-info">
+        <div class="c-sub-info">
+          <small>Delicious</small>
+        </div>
+        <div class="c-sub-info">
+          <span>Contact Information</span>
+          <p>Find our restaurant branches near you</p>
+        </div>
+      </div>
+
+      <div class="contact_info-sec">
+        <div class="info_cards">
+          <div class="c-info_card">
+            <div class="c-i_icon">
+              <img src="./assets/icons8-mail-50.png" alt="image icon"/>
+            </div>
+            <div class="c-name">
+              <span>Email</span>
+            </div>
+            <div class="c-caption">
+              <small>Send us a message</small>
+            </div>
+            <div class="c-email">
+              <small>hello@relume.io</small>
+            </div>
+          </div>
+
+          <div class="c-info_card">
+            <div class="c-i_icon">
+              <img src="./assets/icons8-phone-50 (2).png" alt="image icon"/>
+            </div>
+            <div class="c-name">
+              <span>Phone</span>
+            </div>
+            <div class="c-caption">
+              <small>Call us for inquiries</small>
+            </div>
+            <div class="c-email">
+              <small>+1 (555) 000-0000</small>
+            </div>
+          </div>
+
+          <div class="c-info_card">
+            <div class="c-i_icon">
+              <img src="./assets/icons8-location-50.png" alt="image icon"/>
+            </div>
+            <div class="c-name">
+              <span>Office</span>
+            </div>
+            <div class="c-caption">
+              <small>123 Sample St, Sydney NSW 2000 AU</small>
+            </div>
+            <div class="c-email">
+              <small>hello@relume.io</small>
+            </div>
+            <div class="c-directions">
+              <small>Get Directions</small>
+              <img src="./assets/icons8-arrow-50 (1).png" alt="image icon"/> 
+            </div>
+          </div>
+        </div>
+
+        <div class="google_maps">
+          <div class="google_maps_image">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20822.391307894177!2d-123.13837909779774!3d49.280207419088605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717f41ba2fb1%3A0xc6952794560a44aa!2sDowntown%20Vancouver%2C%20Vancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1711564798274!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-updates">
+      <small class="update-title">Get Exclusive Updates</small>
+      <p class="update_info">Sign up for our newsletter to receive the
+       latest news and promotions.</p>
+
+       <div class="subscribtion_cta-btns">
+          <form method="POST" class="input-form" id="input-form">
+            <div class="update_input" id="update_input">
+              <input type="text" placeholder="Enter your email" />
+            </div>
+            <div class="update_btn">
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+          <div class="update_cta">
+            <small>By subscribing, you agree to our Privacy Policy.</small>
+            <a href="#">Privacy Policy</a>
+          </div>
+       </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-col">
+        <div class="f-col">
+          <h4>About Us</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Contact</a>
+              </li>
+              <li class="f-link">
+                <a href="#">FAQs</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Terms</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Privacy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Shipping</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Returns</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Order Tracking</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Customer Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Blog</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Affiliate</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Wholesale</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Careers</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">View Openings</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Locations</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Apply</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Business Inquiries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Terms of Service</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Use of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="c-logo">
+        <div class="f-c-logo">
+          <span><strong>TresBien</strong></span>
+        </div>
+        <div class="copyright">
+          <small>Copyright &copy; 2024, TresBien. All rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

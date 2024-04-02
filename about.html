@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============== Bootstrap CDN ===============  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- ================= Google Fonts API =========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ============= Font Awesome CDN =============  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ============= Swiper JS  -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <!-- ============ Stylesheet ======== -->
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>TresBien</title>
+  </head>
+  <body>
+    <!-- ============ Navbar -->
+    <nav class="navbar" id="navbar">
+      <a href="./index.html" class="logo">TresBien</a>
+
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="./about.html">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="./menu.html">Menu</a>
+        </li>
+        <li class="nav__item">
+          <a href="./specials.html">Specials</a>
+        </li>
+      </ul>
+      <div class="book-btn">
+        <button class="book">Book</button>
+      </div>
+      <div class="navbar__toggle" id="navbar-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <div class="sidebar_nav" id="sidebar_nav">
+      <h4>TresBien</h4>
+
+      <li class="nav__item">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav__item">
+        <a href="./about.html">About Us</a>
+      </li>
+      <li class="nav__item">
+        <a href="./menu.html">Menu</a>
+      </li>
+      <li class="nav__item">
+        <a href="./specials.html">Specials</a>
+      </li>
+    </div>
+    <!-- ============ End Navbar -->
+
+    <!-- ============ Header Section-->
+    <header class="about_container">
+        <div class="about-content">
+            <div class="sub-about-title">
+                <small>Delicious</small>
+            </div>
+            <div class="m-about-title">
+                <h1>Our Journey: From Passion to Perfection</h1>
+            </div>
+            <div class="m-about-info">
+                <p>At our restaurant, we have a rich history 
+                that dates back to our humble beginnings. It all 
+                started with a passion for culinary excellence and a
+                 dream to create a dining experience like no other. 
+                 Today, we continue to uphold our mission of serving 
+                 delicious food made with love and providing exceptional 
+                 service to our valued customers.</p>
+            </div>
+
+            <div class="m_about-cta">
+                <div class="about-cta">
+                    <a href="#team">Learn More</a>
+                </div>
+                <div class="about-cta">
+                    <a href="#">Sign Up</a>
+                    <img src="./assets/newimage.png" alt="arrow"/>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ My Team Section-->
+    <section class="team" id="team">
+      <article class="team__container">
+          <div class="m-t-sub_title">
+            <div class="m-sub-title">
+              <small>Delicious</small>
+            </div>
+            <div class="m-title">
+              <h2>Meet Our Team</h2>
+            </div>
+            <div class="m-info">
+              <p>Get to know the talented individuals 
+               behind our restaurant.</p>
+            </div>
+          </div>
+
+          <div class="team_cards">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper_image">
+                    <img src="./assets/pexels-nappy-936043 (3).jpg" alt="review Image" />
+                  </div>
+                  <div class="s-name">
+                    <small><strong>James Micheal</strong></small>
+                  </div>
+                  <div class="s-position">
+                    <small>Head Chef</small>
+                  </div>
+                  <div class="s-info">
+                    <p>"With over 10 years of culinary experience, 
+                    John brings creativity and expertise to our kitchen."</p>
+                  </div>
+                  <div class="s-icons">
+                    <div class="s-icon">
+                      <img src="./assets/icons8-linkedin-30.png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-twitter-50 (1).png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-facebook-50 (2).png" alt="icon image" />
+                    </div>
+                  </div>
+                </div>
+                <!-- ============ Swiper Slide Section-->
+                <div class="swiper-slide">
+                  <div class="swiper_image">
+                    <img src="./assets/pexels-christina-morillo-1181292.jpg" alt="review Image"/>
+                  </div>
+                  <div class="s-name">
+                    <small><strong>Jenny Morallis</strong></small>
+                  </div>
+                  <div class="s-position">
+                    <small>Sous Chef</small>
+                  </div>
+                  <div class="s-info">
+                    <p>"With over 10 years of culinary experience, 
+                    John brings creativity and expertise to our kitchen."</p>
+                  </div>
+                  <div class="s-icons">
+                    <div class="s-icon">
+                      <img src="./assets/icons8-linkedin-30.png" alt="icon image"/>
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-twitter-50 (1).png" alt="icon image"/>
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-facebook-50 (2).png" alt="icon image"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper_image">
+                    <img src="./assets/pexels-ovan-57690.jpg" alt="review Image" />
+                  </div>
+                  <div class="s-name">
+                    <small><strong>Tony Louis</strong></small>
+                  </div>
+                  <div class="s-position">
+                    <small>Line Cook</small>
+                  </div>
+                  <div class="s-info">
+                    <p>"With over 10 years of culinary experience, 
+                    John brings creativity and expertise to our kitchen."</p>
+                  </div>
+                  <div class="s-icons">
+                    <div class="s-icon">
+                      <img src="./assets/icons8-linkedin-30.png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-twitter-50 (1).png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-facebook-50 (2).png" alt="icon image" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper_image">
+                    <img src="./assets/pexels-nappy-936043 (3).jpg" alt="review Image" />
+                  </div>
+                  <div class="s-name">
+                    <small><strong>Atlas Michelle</strong></small>
+                  </div>
+                  <div class="s-position">
+                    <small>Produce Manager</small>
+                  </div>
+                  <div class="s-info">
+                    <p>"With over 10 years of culinary experience, 
+                    John brings creativity and expertise to our kitchen."</p>
+                  </div>
+                  <div class="s-icons">
+                    <div class="s-icon">
+                      <img src="./assets/icons8-linkedin-30.png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-twitter-50 (1).png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-facebook-50 (2).png" alt="icon image" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="swiper_image">
+                    <img src="./assets/pexels-nappy-936043 (3).jpg" alt="review Image" />
+                  </div>
+                  <div class="s-name">
+                    <small><strong>Kyle Vimell</strong></small>
+                  </div>
+                  <div class="s-position">
+                    <small>Manager</small>
+                  </div>
+                  <div class="s-info">
+                    <p>"With over 10 years of culinary experience, 
+                    John brings creativity and expertise to our kitchen."</p>
+                  </div>
+                  <div class="s-icons">
+                    <div class="s-icon">
+                      <img src="./assets/icons8-linkedin-30.png"alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-twitter-50 (1).png" alt="icon image" />
+                    </div>
+                    <div class="s-icon">
+                      <img src="./assets/icons8-facebook-50 (2).png" alt="icon image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+
+          <!-- ============ X-Explore Section-->
+          <div class="x-main-explore">
+            <small><b>Explore Opportunities</b></small>
+            <p>Discover open positions and take the next step in your career.</p>
+
+            <div class="x-explore-cta">
+              <a href="#">View Jobs</a> 
+            </div>
+          </div>
+      </article>
+    </section>
+
+    <!-- ============ Established Section-->
+    <section class="est-sec">
+      <article class="est">
+        <div class="est-main">
+          <h3>Established in 2005, we have been serving 
+          delicious dishes to our customers for over 15 years.</h3>
+          <p>With a wide variety of mouthwatering dishes and exceptional service, 
+          we have earned a reputation for excellence in the restaurant industry.</p>
+        </div>
+        <div class="est-stats">
+          <div class="est-stat">
+            <div class="percentage">
+              <small><strong>50%</strong></small>
+            </div>
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Suspendisse varius enim in eros.</p>
+            </div>
+          </div>
+
+          <div class="est-stat">
+            <div class="percentage">
+              <small><strong>50%</strong></small>
+            </div>
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Suspendisse varius enim in eros.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="est_image">
+          <img src="./assets/community.jpg" alt="community image"/>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ Updates Section-->
+    <section class="get-updates">
+      <small class="update-title">Get Exclusive Updates</small>
+      <p class="update_info">Sign up for our newsletter to receive the
+       latest news and promotions.</p>
+
+       <div class="subscribtion_cta-btns">
+          <form method="POST" class="input-form" id="input-form">
+            <div class="update_input" id="update_input">
+              <input type="text" placeholder="Enter your email" />
+            </div>
+            <div class="update_btn">
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+          <div class="update_cta">
+            <small>By subscribing, you agree to our Privacy Policy.</small>
+            <a href="#">Privacy Policy</a>
+          </div>
+       </div>
+    </section>
+
+    <!-- ============ Footer Section-->
+    <footer class="footer">
+      <div class="footer-col">
+        <div class="f-col">
+          <h4>About Us</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Contact</a>
+              </li>
+              <li class="f-link">
+                <a href="#">FAQs</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Terms</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Privacy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Shipping</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Returns</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Order Tracking</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Customer Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Blog</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Affiliate</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Wholesale</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Careers</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">View Openings</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Locations</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Apply</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Support</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Business Inquiries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Terms of Service</h4>
+          <div class="col">
+            <ul class="footer_links">
+              <li class="f-link">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="f-link">
+                <a href="#">Use of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="c-logo">
+        <div class="f-c-logo">
+          <span><strong>TresBien</strong></span>
+        </div>
+        <div class="copyright">
+          <small>Copyright &copy; 2024, TresBien. All rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============ Swiper CDN ============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ============ Swiper JS Implementation ============-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+
+    <!-- ============ Main Script Tag ============-->
+    <script src="index.js"></script>
+  </body>
+</html>
